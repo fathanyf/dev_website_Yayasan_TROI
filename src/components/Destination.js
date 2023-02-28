@@ -12,11 +12,24 @@ const Destination = () =>{
             <p>Lorem ipsum dolor sit amet consectetur.</p>
 
         <DestinationData
+        className="first-des"
         heading="judul"
         text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus nihil laborum deleniti iusto ea magni ut deserunt at architecto dicta 
         eaque laudantium ipsum dignissimos, earum officia maiores dolores veritatis! Recusandae omnis mollitia provident. 
         Officia corrupti quasi ea iure fugiat, veniam libero atque, totam error doloremque adipisci unde asperiores magni porro."
+        img1={Mountain4}
+        img2={Mountain2}
         />
+        <DestinationData
+        className="first-des-reverse"
+        heading="judul"
+        text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus nihil laborum deleniti iusto ea magni ut deserunt at architecto dicta 
+        eaque laudantium ipsum dignissimos, earum officia maiores dolores veritatis! Recusandae omnis mollitia provident. 
+        Officia corrupti quasi ea iure fugiat, veniam libero atque, totam error doloremque adipisci unde asperiores magni porro."
+        img1={Mountain1}
+        img2={Mountain3}
+        />
+        {/* 2.26.41 */}
 
         </div>
     )
